@@ -201,8 +201,8 @@
         var line = createDom('<div class="patt-lines" style="top:' + (newY - 7) + 'px; left: ' + (newX - 7) + 'px;"></div>');
 
         this.line = line;
-        this.lineX1 = newX;
-        this.lineY1 = newY;
+        this.lineX1 = newX - 2;
+        this.lineY1 = newY - 2;
         // add on dom
 
         this.holder.appendChild(line);
