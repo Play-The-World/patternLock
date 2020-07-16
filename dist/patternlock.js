@@ -198,7 +198,7 @@
         }
 
         // to create new line
-        var line = createDom('<div class="patt-lines" style="top:' + (newY - 7) + 'px; left: ' + (newX - 7) + 'px;"></div>');
+        var line = createDom('<div class="patt-lines" style="top:' + (newY - 7) + 'px; left: ' + (newX - 7) + 'px;color: red;"></div>');
 
         this.line = line;
         this.lineX1 = newX - 2;
